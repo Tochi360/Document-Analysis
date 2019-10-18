@@ -1,0 +1,125 @@
+/*************************************
+GENERAL
+ *************************************/
+/* link*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color: aliceblue
+}
+
+
+
+.navigation{
+    background-color: black;
+    width: 100%;
+    height: 141px;
+
+
+}
+.navigation h1{
+    float: left;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 2.5em;
+}
+.nav {
+    display: inline;
+    
+}
+.nav li{
+    float: right;
+    padding-top: 40px;
+    list-style: none;
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-right: 20px;
+    
+
+}
+
+
+
+/*************************************
+HEADING
+ *************************************/
+ header {
+     background-color: black;
+     color: white;
+
+ }
+   
+
+
+
+/* footer */
+
+.footer{
+    padding: 30px;
+    clear: both;
+    color:white;
+    background: gray;
+    max-width: 100%;
+    height: 101px;
+ }
+ .footer h2 {
+     float: left;
+ }
+ .footer h3 {
+     float: right;
+     margin-right: 28%;
+
+ }
+
+ .footer a img {
+    float: right;
+    padding-right: 30px;
+ }
+ /*************** 
+media query ***********/
+
+@media screen and (max-width: 619px) {
+    .navigation h1{
+        margin-left: 8px;
+        font-size: 1em;
+    }
+    
+    .nav li{
+        font-size: 0.7em;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .footer a img {  
+            width: 10px;
+            padding-right: 8px;
+            margin-top: 30px;
+            
+          }
+.copyright {
+        font-size: 10px;
+}
+.footer h1 {
+    font-size: 20px;
+
+}
+    
+}
+@media screen and (max-width: 860px) and (min-width: 620px){
+    .navigation h1{
+        margin-left: 20px;
+        
+    }
+
+    .nav li{
+        list-style: none;
+        font-size: 1em; 
+    }
+    
+
+    
+   
+}
